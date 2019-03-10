@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+//funzione secondo grado nei reali.
+
+int main() 
+
+{
+  int 
+
+return 0;
+}

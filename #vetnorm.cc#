@@ -1,0 +1,40 @@
+#include <iostream>
+#include <math.h>
+
+
+using namespace std;
+//funzione secondo grado nei reali.
+
+
+int const dim=3;
+
+int main() 
+
+{
+  double v[dim];
+  double nor=0;
+
+  for(int i=1;i<4;i++){
+    cout << "valore di v?" << "   ";
+    cin >> v[i]; }
+
+  norma(v,nor);
+
+  cout << endl << "La norma  e': " << nor << endl;
+  cout << endl << "Il vettore normalizzato  e': " <<  endl << endl;
+
+  for(int i=1;i<4;i++){
+
+     v[i]/=nor ;
+     cout << v[i] << "   ";
+      }  
+   
+  cout << endl << endl;
+
+  return 0;
+}
+
+
+  
+
+ 
